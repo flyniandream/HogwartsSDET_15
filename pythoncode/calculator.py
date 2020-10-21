@@ -18,5 +18,5 @@ class Calculator:
         return a * b
 
     def div(self,a,b):
-        # assert b != 0 #若定义，raise中就是AssertionError
+        # assert b != 0 #注意：若定义，raise中就是AssertionError
         return a / b
