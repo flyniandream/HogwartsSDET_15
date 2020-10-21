@@ -8,6 +8,9 @@ class Calculator:
     def add(self,a,b):
         return  a + b
 
+    def add1(self,a:int,b:int)->int:
+        return  a + b
+
     def sub(self,a,b):
         return a - b
 
@@ -15,5 +18,5 @@ class Calculator:
         return a * b
 
     def div(self,a,b):
-        assert b != 0
+        # assert b != 0 #若定义，raise中就是AssertionError
         return a / b
